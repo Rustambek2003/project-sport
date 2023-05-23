@@ -11,6 +11,7 @@ import Sport from '../pages/Sports/Sport'
 import { Route,Routes } from 'react-router-dom'
 import Contact from '../pages/Contact/Contact'
 
+
 const App = () => {
   return (
     <>
@@ -26,6 +27,8 @@ const App = () => {
           <Route path="/pikure" element={<Pikure />} />
           <Route path="/sport" element={<Sport />} />
           <Route path="/contact" element={<Contact />} />
+          
+
     
         </Routes>
     
